@@ -11,3 +11,33 @@ Started by user [8mha:////4L1/71ArYEMiTyASO7/89uhMv6zRIVlQrsO9Wqey58roAAAAlx+LC
 [2022-03-02T20:28:00.485Z] The recommended git tool is: NONE
 [2022-03-02T20:28:01.219Z] No credentials specified
 [2022-03-02T20:28:01.228Z] Cloning the remote Git repository
+[2022-03-02T20:28:01.605Z] Avoid second fetch
+[2022-03-02T20:28:01.618Z] Checking out Revision 468342d24e7e199f5804bc2f6bd0a89715a6f723 (origin/J2EE)
+[2022-03-02T20:28:01.665Z] Commit message: "Update index.html"
+[2022-03-02T20:28:01.665Z] First time build. Skipping changelog.
+[2022-03-02T20:28:01.244Z] Cloning repository https://github.com/saibeekle93/onlinebookstore.git
+[2022-03-02T20:28:01.247Z]  > git init /opt/jenkins/workspace/Software # timeout=10
+[2022-03-02T20:28:01.255Z] Fetching upstream changes from https://github.com/saibeekle93/onlinebookstore.git
+[2022-03-02T20:28:01.255Z]  > git --version # timeout=10
+[2022-03-02T20:28:01.262Z]  > git --version # 'git version 2.32.0'
+[2022-03-02T20:28:01.262Z]  > git fetch --tags --force --progress -- https://github.com/saibeekle93/onlinebookstore.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+[2022-03-02T20:28:01.593Z]  > git config remote.origin.url https://github.com/saibeekle93/onlinebookstore.git # timeout=10
+[2022-03-02T20:28:01.598Z]  > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+[2022-03-02T20:28:01.608Z]  > git rev-parse origin/J2EE^{commit} # timeout=10
+[2022-03-02T20:28:01.620Z]  > git config core.sparsecheckout # timeout=10
+[2022-03-02T20:28:01.627Z]  > git checkout -f 468342d24e7e199f5804bc2f6bd0a89715a6f723 # timeout=10
+[8mha:////4D96fKJLX3HdDFXzUX522H+DJHvwCeYx/Lp9ZZYyf+hQAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77aCbP8Brmfz270AAAA=[0m[Pipeline] }
+[8mha:////4L//sszWNhnbvG4XfuJ9OP5bYns/yUyt82wEkJwaC6oVAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIMlYVjZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL0tBtv8Aj1Msdr0AAAA=[0m[Pipeline] // stage
+[8mha:////4FTifIBWlAA9jrxvtqVyf5z2dTDomhL9RMwTF7RO641eAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjKGgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHIHYMxWb7OZZvfPyORMEAAAA=[0m[Pipeline] stage
+[8mha:////4Fg1IWUzLoYFS3EVDEaZk8rpEySShDt2hvDeVyXxzVY0AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (codepull - Build)
+[8mha:////4MH0GO6H4atDb6eIFK1iXflmBwbnxO86oPS2YYGryepVAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] sh
+[2022-03-02T20:28:02.378Z] + echo 'code pulled successfully'
+[2022-03-02T20:28:02.379Z] code pulled successfully
+[8mha:////4LkLtEuJ2pp5pmnSrCQfx0LaZ7UfWYnyd6ErX5H4CF+yAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N7BnLt++AAAA[0m[Pipeline] }
+[8mha:////4E3SZYBwuDq5Mf9O8S66HhtiLjWMB6Gf2k8LbJehcvouAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N4glvS6+AAAA[0m[Pipeline] // stage
+[8mha:////4FzI4REUM5PUlATeTqRerKjWE/44fZKrHninvRWnHsa5AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRDRSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsPuZZrjr0AAAA=[0m[Pipeline] }
+[8mha:////4NFwzHnCBi9nR1Wm5hZoAXzzJ8BUDKRW/DcZeRev2JhlAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRBRISoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBdnuA9JQMpW9AAAA[0m[Pipeline] // node
+[8mha:////4OavjkCDexXPo4rL1w0fFZUN2S5RZx6bBwbUEN4/5VpoAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREg1CVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9APRJVd+9AAAA[0m[Pipeline] }
+[8mha:////4Cdcn+Qxf/kKwLluXqwfWytcBd4hre2ornx4YqSg5KLfAAAAoh+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBUCIqWisNLzCJMU6su2BfSCpexNf4AxGRqNhqZ5p5vbFMEUeOTjWWWk+p8qoLvZueGji218CDaviiKqbEwarSDiXX9jRjyWIxL8ux0FhZqgInT06w1o15mCIYcsVZ4uQOGrmv73gi01NZTJQvjBGbW18npl/nbwBj1wny3VaQ7T+IzLXKvQAAAA==[0m[Pipeline] // timestamps
+[8mha:////4I20cLds3IG46ZpVKZakNxymR6tmNtQ2gk1ZD8e4vrU0AAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiKMtI6VbYbGE0SIMZDZxWQRKk/k1byDjMxY+av/XvNeb6xTxJGjU62lzlOqverD4OanRo7dNfCoWr6omilxsKqyY8WNPS1YsVgsy3KsNDaW6sDJkxNsdWsepgiGXHGWOLuDRu6bO57I9FwWE+ULU8TuNjSJ6df5G8DU94K83Auy8gOu1dKAvQAAAA==[0m[Pipeline] End of Pipeline
+Finished: SUCCESS
