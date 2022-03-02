@@ -74,3 +74,15 @@ SSH Connection failed with IOException: "Key exchange was not finished, connecti
 [03/02/22 16:49:01] [SSH] WARNING: The SSH key for this host does not match the key required in the connection configuration. Connections will be denied until the host key matches the configuration key.
 Key exchange was not finished, connection is closed.
 SSH Connection failed with IOException: "Key exchange was not finished, connection is closed.", retrying in 15 seconds. There are 5 more retries left.
+[03/02/22 16:49:16] [SSH] WARNING: The SSH key for this host does not match the key required in the connection configuration. Connections will be denied until the host key matches the configuration key.
+Key exchange was not finished, connection is closed.
+SSH Connection failed with IOException: "Key exchange was not finished, connection is closed.", retrying in 15 seconds. There are 4 more retries left.
+[03/02/22 16:49:31] [SSH] WARNING: The SSH key for this host does not match the key required in the connection configuration. Connections will be denied until the host key matches the configuration key.
+Key exchange was not finished, connection is closed.
+SSH Connection failed with IOException: "Key exchange was not finished, connection is closed.", retrying in 15 seconds. There are 3 more retries left.
+[03/02/22 16:49:46] [SSH] WARNING: The SSH key for this host does not match the key required in the connection configuration. Connections will be denied until the host key matches the configuration key.
+Key exchange was not finished, connection is closed.
+SSH Connection failed with IOException: "Key exchange was not finished, connection is closed.", retrying in 15 seconds. There are 2 more retries left.
+[03/02/22 16:50:01] [SSH] WARNING: The SSH key for this host does not match the key required in the connection configuration. Connections will be denied until the host key matches the configuration key.
+Key exchange was not finished, connection is closed.
+SSH Connection failed with IOException: "Key exchange was not finished, connection is closed.", retrying in 15 seconds. There are 1 more retries left.
