@@ -1,117 +1,97 @@
-[03/02/22 16:45:15] [SSH] WARNING: The SSH key for this host does not match the key required in the connection configuration. Connections will be denied until the host key matches the configuration key.
-Key exchange was not finished, connection is closed.
-SSH Connection failed with IOException: "Key exchange was not finished, connection is closed.", retrying in 15 seconds. There are 9 more retries left.
-[03/02/22 16:45:30] [SSH] WARNING: The SSH key for this host does not match the key required in the connection configuration. Connections will be denied until the host key matches the configuration key.
-Key exchange was not finished, connection is closed.
-SSH Connection failed with IOException: "Key exchange was not finished, connection is closed.", retrying in 15 seconds. There are 8 more retries left.
-[03/02/22 16:45:45] [SSH] WARNING: The SSH key for this host does not match the key required in the connection configuration. Connections will be denied until the host key matches the configuration key.
-Key exchange was not finished, connection is closed.
-SSH Connection failed with IOException: "Key exchange was not finished, connection is closed.", retrying in 15 seconds. There are 7 more retries left.
-[03/02/22 16:46:00] [SSH] WARNING: The SSH key for this host does not match the key required in the connection configuration. Connections will be denied until the host key matches the configuration key.
-Key exchange was not finished, connection is closed.
-SSH Connection failed with IOException: "Key exchange was not finished, connection is closed.", retrying in 15 seconds. There are 6 more retries left.
-[03/02/22 16:46:15] [SSH] WARNING: The SSH key for this host does not match the key required in the connection configuration. Connections will be denied until the host key matches the configuration key.
-Key exchange was not finished, connection is closed.
-SSH Connection failed with IOException: "Key exchange was not finished, connection is closed.", retrying in 15 seconds. There are 5 more retries left.
-[03/02/22 16:46:30] [SSH] WARNING: The SSH key for this host does not match the key required in the connection configuration. Connections will be denied until the host key matches the configuration key.
-Key exchange was not finished, connection is closed.
-SSH Connection failed with IOException: "Key exchange was not finished, connection is closed.", retrying in 15 seconds. There are 4 more retries left.
-[03/02/22 16:46:45] [SSH] WARNING: The SSH key for this host does not match the key required in the connection configuration. Connections will be denied until the host key matches the configuration key.
-Key exchange was not finished, connection is closed.
-SSH Connection failed with IOException: "Key exchange was not finished, connection is closed.", retrying in 15 seconds. There are 3 more retries left.
-[03/02/22 16:47:00] [SSH] WARNING: The SSH key for this host does not match the key required in the connection configuration. Connections will be denied until the host key matches the configuration key.
-Key exchange was not finished, connection is closed.
-SSH Connection failed with IOException: "Key exchange was not finished, connection is closed.", retrying in 15 seconds. There are 2 more retries left.
-[03/02/22 16:47:15] [SSH] WARNING: The SSH key for this host does not match the key required in the connection configuration. Connections will be denied until the host key matches the configuration key.
-Key exchange was not finished, connection is closed.
-SSH Connection failed with IOException: "Key exchange was not finished, connection is closed.", retrying in 15 seconds. There are 1 more retries left.
-[03/02/22 16:47:30] [SSH] WARNING: The SSH key for this host does not match the key required in the connection configuration. Connections will be denied until the host key matches the configuration key.
-Key exchange was not finished, connection is closed.
-ERROR: Connection is not established!
-java.lang.IllegalStateException: Connection is not established!
-	at com.trilead.ssh2.Connection.getRemainingAuthMethods(Connection.java:988)
-	at com.cloudbees.jenkins.plugins.sshcredentials.impl.TrileadSSHPublicKeyAuthenticator.getRemainingAuthMethods(TrileadSSHPublicKeyAuthenticator.java:89)
-	at com.cloudbees.jenkins.plugins.sshcredentials.impl.TrileadSSHPublicKeyAuthenticator.canAuthenticate(TrileadSSHPublicKeyAuthenticator.java:81)
-	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
-	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-	at java.util.Spliterators$IteratorSpliterator.tryAdvance(Spliterators.java:1812)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531)
-	at com.cloudbees.jenkins.plugins.sshcredentials.SSHAuthenticator.newInstance(SSHAuthenticator.java:222)
-	at com.cloudbees.jenkins.plugins.sshcredentials.SSHAuthenticator.newInstance(SSHAuthenticator.java:173)
-	at hudson.plugins.sshslaves.SSHLauncher.openConnection(SSHLauncher.java:886)
-	at hudson.plugins.sshslaves.SSHLauncher$1.call(SSHLauncher.java:434)
+SSHLauncher{host='172.31.83.255', port=22, credentialsId='1', jvmOptions='', javaPath='', prefixStartSlaveCmd='', suffixStartSlaveCmd='', launchTimeoutSeconds=60, maxNumRetries=10, retryWaitTime=15, sshHostKeyVerificationStrategy=hudson.plugins.sshslaves.verifiers.NonVerifyingKeyVerificationStrategy, tcpNoDelay=true, trackCredentials=true}
+[03/02/22 16:52:21] [SSH] Opening SSH connection to 172.31.83.255:22.
+[03/02/22 16:52:21] [SSH] WARNING: SSH Host Keys are not being verified. Man-in-the-middle attacks may be possible against this connection.
+[03/02/22 16:52:21] [SSH] Authentication successful.
+[03/02/22 16:52:21] [SSH] The remote user's environment is:
+BASH=/usr/bin/bash
+BASHOPTS=cmdhist:extquote:force_fignore:hostcomplete:interactive_comments:progcomp:promptvars:sourcepath
+BASH_ALIASES=()
+BASH_ARGC=()
+BASH_ARGV=()
+BASH_CMDS=()
+BASH_EXECUTION_STRING=set
+BASH_LINENO=()
+BASH_SOURCE=()
+BASH_VERSINFO=([0]="4" [1]="2" [2]="46" [3]="2" [4]="release" [5]="x86_64-koji-linux-gnu")
+BASH_VERSION='4.2.46(2)-release'
+DIRSTACK=()
+EUID=1001
+GROUPS=()
+HOME=/home/sai
+HOSTNAME=ip-172-31-83-255.ec2.internal
+HOSTTYPE=x86_64
+IFS=$' \t\n'
+LANG=en_US.UTF-8
+LESSOPEN='||/usr/bin/lesspipe.sh %s'
+LOGNAME=sai
+MACHTYPE=x86_64-koji-linux-gnu
+MAIL=/var/mail/sai
+OPTERR=1
+OPTIND=1
+OSTYPE=linux-gnu
+PATH=/usr/local/bin:/usr/bin
+PIPESTATUS=([0]="0")
+PPID=498
+PS4='+ '
+PWD=/home/sai
+SHELL=/bin/bash
+SHELLOPTS=braceexpand:hashall:interactive-comments
+SHLVL=1
+SSH_CLIENT='172.31.28.95 55908 22'
+SSH_CONNECTION='172.31.28.95 55908 172.31.83.255 22'
+TERM=dumb
+UID=1001
+USER=sai
+XDG_RUNTIME_DIR=/run/user/1001
+XDG_SESSION_ID=14
+_=/etc/bashrc
+Checking Java version in the PATH
+bash: java: command not found
+Java is not in the PATH nor configured with the javaPath setting, Jenkins will try to guess where is Java, this guess will be removed in the future. :Launch agents via SSH
+[03/02/22 16:52:21] [SSH] Checking java version of /opt/jenkins/jdk/bin/java
+Couldn't figure out the Java version of /opt/jenkins/jdk/bin/java
+bash: /opt/jenkins/jdk/bin/java: No such file or directory
+
+[03/02/22 16:52:21] [SSH] Checking java version of java
+Couldn't figure out the Java version of java
+bash: java: command not found
+
+[03/02/22 16:52:21] [SSH] Checking java version of /usr/bin/java
+Couldn't figure out the Java version of /usr/bin/java
+bash: /usr/bin/java: No such file or directory
+
+[03/02/22 16:52:21] [SSH] Checking java version of /usr/java/default/bin/java
+Couldn't figure out the Java version of /usr/java/default/bin/java
+bash: /usr/java/default/bin/java: No such file or directory
+
+[03/02/22 16:52:21] [SSH] Checking java version of /usr/java/latest/bin/java
+Couldn't figure out the Java version of /usr/java/latest/bin/java
+bash: /usr/java/latest/bin/java: No such file or directory
+
+[03/02/22 16:52:21] [SSH] Checking java version of /usr/local/bin/java
+Couldn't figure out the Java version of /usr/local/bin/java
+bash: /usr/local/bin/java: No such file or directory
+
+[03/02/22 16:52:21] [SSH] Checking java version of /usr/local/java/bin/java
+Couldn't figure out the Java version of /usr/local/java/bin/java
+bash: /usr/local/java/bin/java: No such file or directory
+
+java.io.IOException: Java not found on hudson.slaves.SlaveComputer@1ed17e7. Install Java 8 or Java 11 on the Agent.
+	at hudson.plugins.sshslaves.JavaVersionChecker.resolveJava(JavaVersionChecker.java:84)
+	at hudson.plugins.sshslaves.SSHLauncher$1.call(SSHLauncher.java:453)
 	at hudson.plugins.sshslaves.SSHLauncher$1.call(SSHLauncher.java:421)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-[03/02/22 16:47:45] Launch failed - cleaning up connection
-[03/02/22 16:47:45] [SSH] Connection closed.
-SSHLauncher{host='44.202.119.178', port=22, credentialsId='50975469-de68-40a3-8258-e47947f6441b', jvmOptions='', javaPath='', prefixStartSlaveCmd='', suffixStartSlaveCmd='', launchTimeoutSeconds=60, maxNumRetries=10, retryWaitTime=15, sshHostKeyVerificationStrategy=hudson.plugins.sshslaves.verifiers.ManuallyProvidedKeyVerificationStrategy, tcpNoDelay=true, trackCredentials=true}
-[03/02/22 16:47:45] [SSH] Opening SSH connection to 44.202.119.178:22.
-[03/02/22 16:47:45] [SSH] WARNING: The SSH key for this host does not match the key required in the connection configuration. Connections will be denied until the host key matches the configuration key.
-Key exchange was not finished, connection is closed.
-SSH Connection failed with IOException: "Key exchange was not finished, connection is closed.", retrying in 15 seconds. There are 10 more retries left.
-[03/02/22 16:48:01] [SSH] WARNING: The SSH key for this host does not match the key required in the connection configuration. Connections will be denied until the host key matches the configuration key.
-Key exchange was not finished, connection is closed.
-SSH Connection failed with IOException: "Key exchange was not finished, connection is closed.", retrying in 15 seconds. There are 9 more retries left.
-[03/02/22 16:48:16] [SSH] WARNING: The SSH key for this host does not match the key required in the connection configuration. Connections will be denied until the host key matches the configuration key.
-Key exchange was not finished, connection is closed.
-SSH Connection failed with IOException: "Key exchange was not finished, connection is closed.", retrying in 15 seconds. There are 8 more retries left.
-[03/02/22 16:48:31] [SSH] WARNING: The SSH key for this host does not match the key required in the connection configuration. Connections will be denied until the host key matches the configuration key.
-Key exchange was not finished, connection is closed.
-SSH Connection failed with IOException: "Key exchange was not finished, connection is closed.", retrying in 15 seconds. There are 7 more retries left.
-[03/02/22 16:48:46] [SSH] WARNING: The SSH key for this host does not match the key required in the connection configuration. Connections will be denied until the host key matches the configuration key.
-Key exchange was not finished, connection is closed.
-SSH Connection failed with IOException: "Key exchange was not finished, connection is closed.", retrying in 15 seconds. There are 6 more retries left.
-[03/02/22 16:49:01] [SSH] WARNING: The SSH key for this host does not match the key required in the connection configuration. Connections will be denied until the host key matches the configuration key.
+[03/02/22 16:52:21] Launch failed - cleaning up connection
+[03/02/22 16:52:21] [SSH] Connection closed.
+[03/02/22 16:52:33] [SSH] WARNING: The SSH key for this host does not match the key required in the connection configuration. Connections will be denied until the host key matches the configuration key.
 Key exchange was not finished, connection is closed.
 SSH Connection failed with IOException: "Key exchange was not finished, connection is closed.", retrying in 15 seconds. There are 5 more retries left.
-[03/02/22 16:49:16] [SSH] WARNING: The SSH key for this host does not match the key required in the connection configuration. Connections will be denied until the host key matches the configuration key.
+[03/02/22 16:52:48] [SSH] WARNING: The SSH key for this host does not match the key required in the connection configuration. Connections will be denied until the host key matches the configuration key.
 Key exchange was not finished, connection is closed.
 SSH Connection failed with IOException: "Key exchange was not finished, connection is closed.", retrying in 15 seconds. There are 4 more retries left.
-[03/02/22 16:49:31] [SSH] WARNING: The SSH key for this host does not match the key required in the connection configuration. Connections will be denied until the host key matches the configuration key.
+[03/02/22 16:53:03] [SSH] WARNING: The SSH key for this host does not match the key required in the connection configuration. Connections will be denied until the host key matches the configuration key.
 Key exchange was not finished, connection is closed.
 SSH Connection failed with IOException: "Key exchange was not finished, connection is closed.", retrying in 15 seconds. There are 3 more retries left.
-[03/02/22 16:49:46] [SSH] WARNING: The SSH key for this host does not match the key required in the connection configuration. Connections will be denied until the host key matches the configuration key.
-Key exchange was not finished, connection is closed.
-SSH Connection failed with IOException: "Key exchange was not finished, connection is closed.", retrying in 15 seconds. There are 2 more retries left.
-[03/02/22 16:50:01] [SSH] WARNING: The SSH key for this host does not match the key required in the connection configuration. Connections will be denied until the host key matches the configuration key.
-Key exchange was not finished, connection is closed.
-SSH Connection failed with IOException: "Key exchange was not finished, connection is closed.", retrying in 15 seconds. There are 1 more retries left.
-[03/02/22 16:50:16] [SSH] WARNING: The SSH key for this host does not match the key required in the connection configuration. Connections will be denied until the host key matches the configuration key.
-Key exchange was not finished, connection is closed.
-ERROR: Connection is not established!
-java.lang.IllegalStateException: Connection is not established!
-	at com.trilead.ssh2.Connection.getRemainingAuthMethods(Connection.java:988)
-	at com.cloudbees.jenkins.plugins.sshcredentials.impl.TrileadSSHPublicKeyAuthenticator.getRemainingAuthMethods(TrileadSSHPublicKeyAuthenticator.java:89)
-	at com.cloudbees.jenkins.plugins.sshcredentials.impl.TrileadSSHPublicKeyAuthenticator.canAuthenticate(TrileadSSHPublicKeyAuthenticator.java:81)
-	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
-	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-	at java.util.Spliterators$IteratorSpliterator.tryAdvance(Spliterators.java:1812)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531)
-	at com.cloudbees.jenkins.plugins.sshcredentials.SSHAuthenticator.newInstance(SSHAuthenticator.java:222)
-	at com.cloudbees.jenkins.plugins.sshcredentials.SSHAuthenticator.newInstance(SSHAuthenticator.java:173)
-	at hudson.plugins.sshslaves.SSHLauncher.openConnection(SSHLauncher.java:886)
-	at hudson.plugins.sshslaves.SSHLauncher$1.call(SSHLauncher.java:434)
-	at hudson.plugins.sshslaves.SSHLauncher$1.call(SSHLauncher.java:421)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-[03/02/22 16:50:31] Launch failed - cleaning up connection
-[03/02/22 16:50:31] [SSH] Connection closed.
