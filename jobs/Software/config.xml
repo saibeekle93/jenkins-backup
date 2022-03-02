@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><flow-definition>
+  <description/>
+  <properties/>
+  <triggers/>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition">
+    <script>// Powered by Infostretch 
+
+timestamps {
+
+node ('slave2') { 
+
+	stage ('codepull - Checkout') {
+ 	 checkout([$class: 'GitSCM', branches: [[name: 'J2EE']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: '', url: 'https://github.com/saibeekle93/onlinebookstore.git']]]) 
+	}
+	stage ('codepull - Build') {
+ 			// Shell build step
+sh """ 
+echo "code pulled successfully" 
+ """ 
+	}
+}
+}</script>
+  </definition>
+</flow-definition>
