@@ -10,11 +10,11 @@
   <usages>
     <entry>
       <string>codepullandpackage</string>
-      <ranges>1-10</ranges>
+      <ranges>1-10,12</ranges>
     </entry>
     <entry>
       <string>codepullandpackage/onlinebookstore:onlinebookstore</string>
-      <ranges>1-10</ranges>
+      <ranges>1-10,12</ranges>
     </entry>
   </usages>
   <facets/>
