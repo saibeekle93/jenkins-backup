@@ -5,7 +5,7 @@
   <keepDependencies>false</keepDependencies>
   <properties/>
   <scm class="hudson.scm.NullSCM"/>
-  <assignedNode>slave</assignedNode>
+  <assignedNode>slave2</assignedNode>
   <canRoam>false</canRoam>
   <disabled>false</disabled>
   <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
@@ -14,13 +14,13 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>cd /opt/tomcat8/apache-tomcat-8.5.75/bin/
-sh shutdown.sh
-cd /root/jenkins/workspace/codepull/target
-mv onlinebookstore-0.0.1-SNAPSHOT.war /opt/tomcat8/apache-tomcat-8.5.75/webapps/
-cd /opt/tomcat8/apache-tomcat-8.5.75/bin/
-sh startup.sh
-sh startup.sh</command>
+      <command>sudo cd /opt/tomcat/apache-tomcat-8.5.75/bin/
+sudo sh shutdown.sh
+sudo cd /opt/jenkins/workspace/codepull/target
+sudo mv onlinebookstore-0.0.1-SNAPSHOT.war /opt/tomcat/apache-tomcat-8.5.75/webapps/
+sudo cd /opt/tomcat/apache-tomcat-8.5.75/bin/
+sudo sh startup.sh
+</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
