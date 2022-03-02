@@ -1,7 +1,0 @@
-Started by user [8mha:////4L1/71ArYEMiTyASO7/89uhMv6zRIVlQrsO9Wqey58roAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
-Running as SYSTEM
-Building remotely on [8mha:////4KuE5OE8AcEj6Qu/lKxFYG1NvbeMzvmLblo6g6PRuGbVAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUIwCCp2lrxQAAAA==[0mslave2 in workspace /opt/jenkins/workspace/h
-[h] $ /bin/sh -xe /tmp/jenkins7312707282883218303.sh
-+ echo hi
-hi
-Finished: SUCCESS
