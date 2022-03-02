@@ -16,7 +16,7 @@
     <hudson.tasks.Shell>
       <command>cd /opt/tomcat/apache-tomcat-8.5.76/bin/
 sudo sh shutdown.sh
-cd /opt/jenkins/workspace/codepull/target
+cd /opt/jenkins/workspace/codepullandpackage/target
 sudo mv onlinebookstore-0.0.1-SNAPSHOT.war /opt/tomcat/apache-tomcat-8.5.76/webapps/
 cd /opt/tomcat/apache-tomcat-8.5.76/bin/
 sudo sh startup.sh

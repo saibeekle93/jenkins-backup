@@ -1,0 +1,35 @@
+Started by user [8mha:////4L1/71ArYEMiTyASO7/89uhMv6zRIVlQrsO9Wqey58roAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building remotely on [8mha:////4KuE5OE8AcEj6Qu/lKxFYG1NvbeMzvmLblo6g6PRuGbVAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUIwCCp2lrxQAAAA==[0mslave2 in workspace /opt/jenkins/workspace/deploy
+[deploy] $ /bin/sh -xe /tmp/jenkins426605099706215183.sh
++ cd /opt/tomcat/apache-tomcat-8.5.76/bin/
++ sudo sh shutdown.sh
+Mar 02, 2022 6:21:17 PM org.apache.catalina.startup.Catalina stopServer
+SEVERE: Could not contact [localhost:8005] (base port [8005] and offset [0]). Tomcat may not be running.
+Mar 02, 2022 6:21:17 PM org.apache.catalina.startup.Catalina stopServer
+SEVERE: Error stopping Catalina
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at java.net.Socket.connect(Socket.java:556)
+	at java.net.Socket.<init>(Socket.java:452)
+	at java.net.Socket.<init>(Socket.java:229)
+	at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:511)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:391)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:481)
+
++ cd /opt/jenkins/workspace/codepullandpackage/target
++ sudo mv onlinebookstore-0.0.1-SNAPSHOT.war /opt/tomcat/apache-tomcat-8.5.76/webapps/
++ cd /opt/tomcat/apache-tomcat-8.5.76/bin/
++ sudo sh startup.sh
+Tomcat started.
+Triggering a new build of [8mha:////4L0VchszTbiYvf5cwsyycivWzApAratZqm0oIk4oyST0AAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JP2S1OKS5MTiVH0AyzHHYcMAAAA=[0mtestcase
+Finished: SUCCESS
