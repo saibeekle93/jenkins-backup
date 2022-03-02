@@ -20,7 +20,7 @@
     <submoduleCfg class="empty-list"/>
     <extensions/>
   </scm>
-  <assignedNode>slave</assignedNode>
+  <assignedNode>slave2</assignedNode>
   <canRoam>false</canRoam>
   <disabled>false</disabled>
   <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
