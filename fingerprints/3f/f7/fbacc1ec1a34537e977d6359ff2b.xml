@@ -5,11 +5,11 @@
   <fileName>mysql:mysql-connector-java-8.0.16.jar</fileName>
   <usages>
     <entry>
-      <string>codepullandpackage</string>
+      <string>build-maven</string>
       <ranges>1-10,12-17</ranges>
     </entry>
     <entry>
-      <string>codepullandpackage/onlinebookstore:onlinebookstore</string>
+      <string>build-maven/onlinebookstore:onlinebookstore</string>
       <ranges>1-10,12-17</ranges>
     </entry>
   </usages>

@@ -38,7 +38,8 @@
       <filterQueue>false</filterQueue>
       <properties class="hudson.model.View$PropertyList"/>
       <gridBuilder class="au.com.centrumsystems.hudson.plugin.buildpipeline.DownstreamProjectGridBuilder">
-        <firstJob>codepullandpackage</firstJob>
+        <firstJob>build-maven</firstJob>
+        <firstJobLink>job/codepullandpackage/</firstJobLink>
       </gridBuilder>
       <noOfDisplayedBuilds>1</noOfDisplayedBuilds>
       <buildViewTitle>SDLC jobs </buildViewTitle>

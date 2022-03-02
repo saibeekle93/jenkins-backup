@@ -20,7 +20,7 @@
   </builders>
   <publishers>
     <hudson.tasks.BuildTrigger>
-      <childProjects>codepullandpackage</childProjects>
+      <childProjects>build-maven</childProjects>
       <threshold>
         <name>SUCCESS</name>
         <ordinal>0</ordinal>

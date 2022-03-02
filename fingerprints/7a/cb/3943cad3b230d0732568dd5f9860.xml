@@ -2,18 +2,18 @@
 <fingerprint>
   <timestamp>2022-02-27 18:32:25.349 UTC</timestamp>
   <original>
-    <name>codepullandpackage/onlinebookstore:onlinebookstore</name>
+    <name>build-maven/onlinebookstore:onlinebookstore</name>
     <number>1</number>
   </original>
   <md5sum>7acb3943cad3b230d0732568dd5f9860</md5sum>
   <fileName>onlinebookstore:onlinebookstore:pom.xml</fileName>
   <usages>
     <entry>
-      <string>codepullandpackage</string>
+      <string>build-maven</string>
       <ranges>1-10,12-17</ranges>
     </entry>
     <entry>
-      <string>codepullandpackage/onlinebookstore:onlinebookstore</string>
+      <string>build-maven/onlinebookstore:onlinebookstore</string>
       <ranges>1-10,12-17</ranges>
     </entry>
   </usages>
