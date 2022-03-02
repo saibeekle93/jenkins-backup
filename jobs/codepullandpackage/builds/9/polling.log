@@ -1,0 +1,12 @@
+Started on Feb 27, 2022 7:53:00 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision 6a03c5875b0375d3eb8d5d91789ef2ff648557c4 (refs/remotes/origin/J2EE)
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.32.0'
+ > git ls-remote -h -- https://github.com/saibeekle93/onlinebookstore.git # timeout=10
+Found 3 remote heads on https://github.com/saibeekle93/onlinebookstore.git
+[poll] Latest remote head revision on refs/heads/J2EE is: 4760c0533eaba3c8934947f198b3e692ea0d415a
+Done. Took 0.12 sec
+Changes found

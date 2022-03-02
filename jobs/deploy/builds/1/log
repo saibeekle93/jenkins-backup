@@ -1,0 +1,15 @@
+Started by upstream project "[8mha:////4PrQ2tRmq29WFBeHbUaxfZN8wc6eN2wY5pHZm1JwKU5qAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyhEgYJ/az8JP1koBMLSnOAJqUUJCZnJ6an6gMAXywV580AAAA=[0mcodepullandpackage" build number [8mha:////4GyCu+PxCE2vo8kjuv9S5EqtUu/HLIeWBZuoqgIp7AcRAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBkn9rPwk/WSgEwtKc4AmpRQkJmcnpqfqmwAAjwJYzM4AAAA=[0m4
+originally caused by:
+ Started by user [8mha:////4L1/71ArYEMiTyASO7/89uhMv6zRIVlQrsO9Wqey58roAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building remotely on [8mha:////4NSkyAPbmbZ8GpaCpsyPm/B7vF3p5AJgjMRAzylnzpL+AAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/eKcxLJUAEnZB8bEAAAA[0mslave in workspace /root/jenkins/workspace/deploy
+[deploy] $ /bin/sh -xe /tmp/jenkins7124128152422632466.sh
++ cd /opt/tomcat8/apache-tomcat-8.5.75/bin
++ ./shutdown.sh
++ cd /root/jenkins/workspace/codepull/target
++ mv onlinebookstore-0.0.1-SNAPSHOT.war /opt/tomcat8/apache-tomcat-8.5.75/webapps/
++ cd /opt/tomcat8/apache-tomcat-8.5.75/bin
++ ./startup.sh
+Tomcat started.
+Triggering a new build of [8mha:////4L0VchszTbiYvf5cwsyycivWzApAratZqm0oIk4oyST0AAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JP2S1OKS5MTiVH0AyzHHYcMAAAA=[0mtestcase
+Finished: SUCCESS

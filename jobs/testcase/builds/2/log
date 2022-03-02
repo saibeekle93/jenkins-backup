@@ -1,0 +1,11 @@
+Started by upstream project "[8mha:////4KClmgGb9pUIcQq+pv6LKrGsEkGriXuUwRLY+pBSmqTMAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/az8JP2U1IKc/Ep9AE110wvBAAAA[0mdeploy" build number [8mha:////4EBPjXjhrHvw9Mq/GSjf39x3P9Ucv3gpKdE6f1prM5sCAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBl79rPwk/ZTUgpz8Sn0jAGjNLq/CAAAA[0m2
+originally caused by:
+ Started by upstream project "[8mha:////4PrQ2tRmq29WFBeHbUaxfZN8wc6eN2wY5pHZm1JwKU5qAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyhEgYJ/az8JP1koBMLSnOAJqUUJCZnJ6an6gMAXywV580AAAA=[0mcodepullandpackage" build number [8mha:////4PKEVQ5XZgvLca5JSQno8G2gzImyHeq95MhhZwb6dxMKAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBkn9rPwk/WSgEwtKc4AmpRQkJmcnpqfqmwIAGTJfu84AAAA=[0m5
+ originally caused by:
+  Started by user [8mha:////4L1/71ArYEMiTyASO7/89uhMv6zRIVlQrsO9Wqey58roAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building remotely on [8mha:////4NSkyAPbmbZ8GpaCpsyPm/B7vF3p5AJgjMRAzylnzpL+AAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/eKcxLJUAEnZB8bEAAAA[0mslave in workspace /root/jenkins/workspace/testcase
+[testcase] $ /bin/sh -xe /tmp/jenkins5267827371269121827.sh
++ echo 'test cases passed successfully'
+test cases passed successfully
+Finished: SUCCESS

@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-02-27 18:32:25.366 UTC</timestamp>
+  <md5sum>4464def1ed5c10f248ebfe1bccbedf1a</md5sum>
+  <fileName>org.checkerframework:checker-qual-3.5.0.jar</fileName>
+  <usages>
+    <entry>
+      <string>codepullandpackage</string>
+      <ranges>1-10</ranges>
+    </entry>
+    <entry>
+      <string>codepullandpackage/onlinebookstore:onlinebookstore</string>
+      <ranges>1-10</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
