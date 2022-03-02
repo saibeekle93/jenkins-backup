@@ -1,0 +1,11 @@
+Started by upstream project "[8mha:////4KClmgGb9pUIcQq+pv6LKrGsEkGriXuUwRLY+pBSmqTMAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/az8JP2U1IKc/Ep9AE110wvBAAAA[0mdeploy" build number [8mha:////4H6ZgCuI/UXoQJEDYD6G+H8TuaxKHVpyL3H7lLL/atwzAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgY+/az8JP2U1IKc/Ep9QzMAa1mojsMAAAA=[0m16
+originally caused by:
+ Started by upstream project "[8mha:////4PrQ2tRmq29WFBeHbUaxfZN8wc6eN2wY5pHZm1JwKU5qAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyhEgYJ/az8JP1koBMLSnOAJqUUJCZnJ6an6gMAXywV580AAAA=[0mcodepullandpackage" build number [8mha:////4J2OF6vka3N5ncKm9GmBSnnR7oH7TLngkbn/khClyw9NAAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYp/az8JP1koBMLSnOAJqUUJCZnJ6an6huaAgCDEThzzwAAAA==[0m15
+ originally caused by:
+  Started by an SCM change
+Running as SYSTEM
+Building remotely on [8mha:////4KuE5OE8AcEj6Qu/lKxFYG1NvbeMzvmLblo6g6PRuGbVAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUIwCCp2lrxQAAAA==[0mslave2 in workspace /opt/jenkins/workspace/testcase
+[testcase] $ /bin/sh -xe /tmp/jenkins6257347225783433909.sh
++ echo 'test cases passed successfully'
+test cases passed successfully
+Finished: SUCCESS

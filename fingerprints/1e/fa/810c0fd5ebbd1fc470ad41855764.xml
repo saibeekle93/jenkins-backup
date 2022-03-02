@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-03-02 19:00:23.616 UTC</timestamp>
+  <original>
+    <name>codepullandpackage/onlinebookstore:onlinebookstore</name>
+    <number>15</number>
+  </original>
+  <md5sum>1efa810c0fd5ebbd1fc470ad41855764</md5sum>
+  <fileName>onlinebookstore:onlinebookstore-0.0.1-SNAPSHOT.war</fileName>
+  <usages>
+    <entry>
+      <string>codepullandpackage</string>
+      <ranges>15</ranges>
+    </entry>
+    <entry>
+      <string>codepullandpackage/onlinebookstore:onlinebookstore</string>
+      <ranges>15</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
