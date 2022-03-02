@@ -36,7 +36,7 @@
     <groupId>onlinebookstore</groupId>
     <artifactId>onlinebookstore</artifactId>
   </rootModule>
-  <rootPOM>/root/jenkins/workspace/codepull/pom.xml</rootPOM>
+  <rootPOM>/opt/jenkins/workspace/codepullandpackage/pom.xml</rootPOM>
   <goals>clean package</goals>
   <aggregatorStyleBuild>true</aggregatorStyleBuild>
   <incrementalBuild>false</incrementalBuild>

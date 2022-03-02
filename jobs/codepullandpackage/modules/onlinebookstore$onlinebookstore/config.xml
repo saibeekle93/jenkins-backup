@@ -14,7 +14,7 @@
   <displayName>onlinebookstore</displayName>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
-  <relativePath>root/jenkins/workspace/codepull</relativePath>
+  <relativePath>opt/jenkins/workspace/codepullandpackage</relativePath>
   <dependencies>
     <dependency>
       <groupId>org.postgresql</groupId>
