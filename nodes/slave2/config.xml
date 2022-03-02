@@ -7,18 +7,13 @@
   <mode>NORMAL</mode>
   <retentionStrategy class="hudson.slaves.RetentionStrategy$Always"/>
   <launcher class="hudson.plugins.sshslaves.SSHLauncher" plugin="ssh-slaves@1.33.0">
-    <host>44.202.119.178</host>
+    <host>172.31.83.255</host>
     <port>22</port>
-    <credentialsId>50975469-de68-40a3-8258-e47947f6441b</credentialsId>
+    <credentialsId>1</credentialsId>
     <launchTimeoutSeconds>60</launchTimeoutSeconds>
     <maxNumRetries>10</maxNumRetries>
     <retryWaitTime>15</retryWaitTime>
-    <sshHostKeyVerificationStrategy class="hudson.plugins.sshslaves.verifiers.ManuallyProvidedKeyVerificationStrategy">
-      <key>
-        <algorithm>ssh-rsa</algorithm>
-        <key>AAAAB3NzaC1yc2EAAAADAQABAAABAQDB6N+UyENe9C13PJzkBD0xxY4jgx1i+3AVj1xAJ4zMtVvSSkZ8OscMRNNwUAn5LA6KZZDyznFUGVIZ9I861ASDrr21dUKMrlNCPPSOCFntJhGMj62ngruZGrxC+zlmwSmddbw8w058rwL9sYgrC4ilAEJT+hSMBfNjT7fuNnX7YCLcPVMQJ4HRCnDQtcOaFZQ5iKlJKb4k6VYOmmJd4dkshLgZ22Y5Tm3Z+xeurlkqUIoLgmJqNDlhiSQnjrNGBJ3Ve9faXxH5FAB0c5FJ4J+4eGpU/FmhwVwTnq+fTfEfMistPo6eZnD09zfnlVPW1mm2RvzCo4BicC7yKInXOYBT</key>
-      </key>
-    </sshHostKeyVerificationStrategy>
+    <sshHostKeyVerificationStrategy class="hudson.plugins.sshslaves.verifiers.NonVerifyingKeyVerificationStrategy"/>
     <tcpNoDelay>true</tcpNoDelay>
   </launcher>
   <label></label>
