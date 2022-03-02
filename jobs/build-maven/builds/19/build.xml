@@ -1,0 +1,73 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.maven.MavenModuleSetBuild plugin="maven-plugin@3.16">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UpstreamCause>
+            <upstreamProject>codepull</upstreamProject>
+            <upstreamUrl>job/codepull/</upstreamUrl>
+            <upstreamBuild>4</upstreamBuild>
+            <upstreamCauses>
+              <hudson.model.Cause_-UserIdCause>
+                <userId>admin</userId>
+              </hudson.model.Cause_-UserIdCause>
+            </upstreamCauses>
+          </hudson.model.Cause_-UpstreamCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.maven.reporters.MavenAggregatedArtifactRecord>
+      <records/>
+      <parent reference="../../.."/>
+    </hudson.maven.reporters.MavenAggregatedArtifactRecord>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>mysql:mysql-connector-java-8.0.16.jar</string>
+          <string>3ff7fbacc1ec1a34537e977d6359ff2b</string>
+        </entry>
+        <entry>
+          <string>com.google.protobuf:protobuf-java-3.6.1.jar</string>
+          <string>17b60a7d277343a16fe881d18adecc0b</string>
+        </entry>
+        <entry>
+          <string>org.checkerframework:checker-qual-3.5.0.jar</string>
+          <string>4464def1ed5c10f248ebfe1bccbedf1a</string>
+        </entry>
+        <entry>
+          <string>onlinebookstore:onlinebookstore-0.0.1-SNAPSHOT.war</string>
+          <string>04cdc6187c6ccfdf44711214b7d0fb9c</string>
+        </entry>
+        <entry>
+          <string>onlinebookstore:onlinebookstore:pom.xml</string>
+          <string>7acb3943cad3b230d0732568dd5f9860</string>
+        </entry>
+        <entry>
+          <string>javax.servlet:javax.servlet-api-3.1.0.jar</string>
+          <string>79de69e9f5ed8c7fcb8342585732bbf7</string>
+        </entry>
+        <entry>
+          <string>org.postgresql:postgresql-42.3.3.jar</string>
+          <string>bef0b2e1c6edcd8647c24bed31e1a4ac</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+  </actions>
+  <queueId>67</queueId>
+  <timestamp>1646253028336</timestamp>
+  <startTime>1646253028339</startTime>
+  <result>SUCCESS</result>
+  <duration>12770</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn>slave2</builtOn>
+  <workspace>/opt/jenkins/workspace/build-maven</workspace>
+  <hudsonVersion>2.319.3</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+  <mavenVersionUsed>3.8.4</mavenVersionUsed>
+</hudson.maven.MavenModuleSetBuild>

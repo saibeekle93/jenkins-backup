@@ -1,0 +1,50 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UpstreamCause>
+            <upstreamProject>deploy</upstreamProject>
+            <upstreamUrl>job/deploy/</upstreamUrl>
+            <upstreamBuild>20</upstreamBuild>
+            <upstreamCauses>
+              <hudson.model.Cause_-UpstreamCause>
+                <upstreamProject>build-maven</upstreamProject>
+                <upstreamUrl>job/build-maven/</upstreamUrl>
+                <upstreamBuild>19</upstreamBuild>
+                <upstreamCauses>
+                  <hudson.model.Cause_-UpstreamCause>
+                    <upstreamProject>codepull</upstreamProject>
+                    <upstreamUrl>job/codepull/</upstreamUrl>
+                    <upstreamBuild>4</upstreamBuild>
+                    <upstreamCauses>
+                      <hudson.model.Cause_-UserIdCause>
+                        <userId>admin</userId>
+                      </hudson.model.Cause_-UserIdCause>
+                    </upstreamCauses>
+                  </hudson.model.Cause_-UpstreamCause>
+                </upstreamCauses>
+              </hudson.model.Cause_-UpstreamCause>
+            </upstreamCauses>
+          </hudson.model.Cause_-UpstreamCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+  </actions>
+  <queueId>69</queueId>
+  <timestamp>1646253058353</timestamp>
+  <startTime>1646253058356</startTime>
+  <result>SUCCESS</result>
+  <duration>54</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn>slave2</builtOn>
+  <workspace>/opt/jenkins/workspace/testcase</workspace>
+  <hudsonVersion>2.319.3</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>

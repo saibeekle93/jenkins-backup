@@ -10,11 +10,11 @@
   <usages>
     <entry>
       <string>build-maven</string>
-      <ranges>1-10,12-18</ranges>
+      <ranges>1-10,12-19</ranges>
     </entry>
     <entry>
       <string>build-maven/onlinebookstore:onlinebookstore</string>
-      <ranges>1-10,12-18</ranges>
+      <ranges>1-10,12-19</ranges>
     </entry>
   </usages>
   <facets/>

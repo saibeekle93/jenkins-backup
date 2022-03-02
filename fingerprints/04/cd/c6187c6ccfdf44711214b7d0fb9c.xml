@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-03-02 20:30:40.159 UTC</timestamp>
+  <original>
+    <name>build-maven/onlinebookstore:onlinebookstore</name>
+    <number>19</number>
+  </original>
+  <md5sum>04cdc6187c6ccfdf44711214b7d0fb9c</md5sum>
+  <fileName>onlinebookstore:onlinebookstore-0.0.1-SNAPSHOT.war</fileName>
+  <usages>
+    <entry>
+      <string>build-maven</string>
+      <ranges>19</ranges>
+    </entry>
+    <entry>
+      <string>build-maven/onlinebookstore:onlinebookstore</string>
+      <ranges>19</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
