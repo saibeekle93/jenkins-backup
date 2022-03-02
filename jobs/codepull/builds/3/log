@@ -1,0 +1,26 @@
+Started by user [8mha:////4L1/71ArYEMiTyASO7/89uhMv6zRIVlQrsO9Wqey58roAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building remotely on [8mha:////4KuE5OE8AcEj6Qu/lKxFYG1NvbeMzvmLblo6g6PRuGbVAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUIwCCp2lrxQAAAA==[0mslave2 in workspace /opt/jenkins/workspace/codepull
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/saibeekle93/onlinebookstore.git
+ > git init /opt/jenkins/workspace/codepull # timeout=10
+Fetching upstream changes from https://github.com/saibeekle93/onlinebookstore.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.32.0'
+ > git fetch --tags --force --progress -- https://github.com/saibeekle93/onlinebookstore.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/saibeekle93/onlinebookstore.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse origin/J2EE^{commit} # timeout=10
+Checking out Revision 468342d24e7e199f5804bc2f6bd0a89715a6f723 (origin/J2EE)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 468342d24e7e199f5804bc2f6bd0a89715a6f723 # timeout=10
+Commit message: "Update index.html"
+First time build. Skipping changelog.
+[codepull] $ /bin/sh -xe /tmp/jenkins5896470140315846246.sh
++ echo 'code pulled successfully'
+code pulled successfully
+Triggering a new build of [8mha:////4E8hmPPo+MKxiD9Y5ZfNfJ1d6iRZjSpvznhdwOZqALELAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JP2k0sycFN3cxLLUPH0A0xbnhcYAAAA=[0mbuild-maven
+Finished: SUCCESS

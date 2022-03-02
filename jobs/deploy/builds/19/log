@@ -1,0 +1,19 @@
+Started by upstream project "[8mha:////4E8hmPPo+MKxiD9Y5ZfNfJ1d6iRZjSpvznhdwOZqALELAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JP2k0sycFN3cxLLUPH0A0xbnhcYAAAA=[0mbuild-maven" build number [8mha:////4NLsJVQEuWqt0VI18JoJFzzuWOfbAZWIBQb2Q2XW+fuVAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZh/az8JP2k0sycFN3cxLLUPH1DCwDH1EOgyAAAAA==[0m18
+originally caused by:
+ Started by upstream project "[8mha:////4Obq06VOagPBykkS0+ZXvWeWXKp5XFLCwgQqP4TKsValAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JP1koBMLSnNy9AFbA9ZswwAAAA==[0mcodepull" build number [8mha:////4G5Nmtc/mq1DkYPgVdyV+btI8h1o5ePAuedFl4tgHjnPAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBn79rPwk/WSgEwtKc3L0jQGo3CzhxAAAAA==[0m3
+ originally caused by:
+  Started by user [8mha:////4L1/71ArYEMiTyASO7/89uhMv6zRIVlQrsO9Wqey58roAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building remotely on [8mha:////4KuE5OE8AcEj6Qu/lKxFYG1NvbeMzvmLblo6g6PRuGbVAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUIwCCp2lrxQAAAA==[0mslave2 in workspace /opt/jenkins/workspace/deploy
+[deploy] $ /bin/sh -xe /tmp/jenkins4452319904491780417.sh
++ cd /opt/tomcat/apache-tomcat-8.5.76/bin/
++ sudo sh shutdown.sh
++ cd /opt/jenkins/workspace/codepull/target
++ sudo mv onlinebookstore-0.0.1-SNAPSHOT.war /opt/tomcat/apache-tomcat-8.5.76/webapps/
++ cd /opt/tomcat/apache-tomcat-8.5.76/webapps/
++ sudo chown -R sai:sai onlinebookstore-0.0.1-SNAPSHOT
++ cd /opt/tomcat/apache-tomcat-8.5.76/bin/
++ sudo sh startup.sh
+Tomcat started.
+Triggering a new build of [8mha:////4L0VchszTbiYvf5cwsyycivWzApAratZqm0oIk4oyST0AAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JP2S1OKS5MTiVH0AyzHHYcMAAAA=[0mtestcase
+Finished: SUCCESS
