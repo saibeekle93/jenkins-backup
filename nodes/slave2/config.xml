@@ -2,7 +2,7 @@
 <slave>
   <name>slave2</name>
   <description></description>
-  <remoteFS>/home/ec2-user</remoteFS>
+  <remoteFS>/opt/jenkins</remoteFS>
   <numExecutors>1</numExecutors>
   <mode>NORMAL</mode>
   <retentionStrategy class="hudson.slaves.RetentionStrategy$Always"/>
