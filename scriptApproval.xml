@@ -1,0 +1,12 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<scriptApproval plugin="script-security@1138.v8e727069a_025">
+  <approvedScriptHashes>
+    <string>d38bb041c85858f656f11ed1b4e567362b57f5f0</string>
+  </approvedScriptHashes>
+  <approvedSignatures/>
+  <aclApprovedSignatures/>
+  <approvedClasspathEntries/>
+  <pendingScripts/>
+  <pendingSignatures/>
+  <pendingClasspathEntries/>
+</scriptApproval>
