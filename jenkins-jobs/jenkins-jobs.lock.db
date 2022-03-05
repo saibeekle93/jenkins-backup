@@ -1,0 +1,6 @@
+#FileLock
+#Sat Mar 05 22:07:55 UTC 2022
+hostName=ip-172-31-28-95.ec2.internal
+id=17f5c1ffe55b6322a831824c548fb5e9e4bb92db827
+method=file
+server=172.31.28.95\:38247
